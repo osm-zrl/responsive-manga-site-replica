@@ -1,0 +1,167 @@
+body{
+	background-color: #333333;
+	margin: 0px 0px 0px 0px;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+#top{
+	background-color: #003326;
+	height: 60px;
+	/*text-align: right;*/
+	/*margin-top: -16px;*/
+	font-size: 90%;
+	text-align: right;
+	font-weight: bold;
+}
+.topT{
+	vertical-align: middle;
+	display: inline-flex;
+	color: white;
+	text-shadow: 0px 0px 5px black ;
+
+}
+#p1{
+	background:linear-gradient(0deg,rgba(71,90,125,0.65), rgba(71,90,125,0.65)),url(images/Player-from-Today-Onwards-wallpaper.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-top: -18px;
+	padding-top: 0%;
+}
+.p1t{
+	display: ruby-base-container;
+	top: 6vw;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+h1{
+	font-size: 170%;
+	padding-left: 10%;
+	padding-right: 10%;
+	letter-spacing: 0.2vw;
+	padding-top: 40px;
+	margin-bottom: -0.5vw;
+	color: white;
+	text-shadow: 0px 0px 5px black ;
+	word-spacing: 0.1vw;
+}
+h2{
+	font-size: 76%;
+	letter-spacing: 0.25vw;
+	color: white;
+	text-shadow: 0px 0px 5px black ;
+	word-spacing: 0.1vw;
+	line-height: 4vw;
+
+}
+#main{
+	height: auto;
+	background-color:   #262626;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+#nextpre{
+	vertical-align: middle;
+	display: inline-flex;
+	border:1px white solid;
+	width: 99.75%;
+}
+.pre{
+	background-color: #660000;
+	width: 50%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-variant-caps: all-small-caps;
+
+}
+.next{
+	width: 50%;
+	background-color: #665200;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-variant-caps: all-small-caps;
+}
+#info{
+	text-align: center;
+}
+
+.coButton{
+	display: inline-flex;
+	background-color:  #4d2600;
+	border-radius: 10px;
+	height: 30px;
+	text-align: center;
+	width: 150px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	text-shadow: 0px 0px 1px white;
+}
+.coButton:hover{
+	text-shadow: 0px 0px 1px black;
+	background-color: #331a00;
+}
+#mangasec{
+	width: 100%;
+	margin-top: 4%;
+	overflow: hidden;
+	margin-bottom: 1%;
+	text-align: center;
+}
+img{
+	width: 96%;
+}
+#about{
+	background-color:   #262626;
+	max-width: 1000px;
+	font-size: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #cccccc;
+	padding-top: 1.5%;
+	margin-top: 3%;
+	padding: 0% 0% 3% 0%;
+	overflow: hidden;
+}
+.aboutT{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	line-height: 28px;
+}
+#siteinfo{
+	width: 100%;
+	background-color:   #008080;
+	margin-top: 36px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.siteinfo{
+	color: #ccffff;
+	margin-left:20px;
+	margin-right:20px;
+	line-height: 28px;
+}
+#footer{
+	display: inline-flex;
+	color: #cccccc;
+	text-align: right;
+	padding-left: auto;
+	padding-right: auto;
+}
+#footercontiner{
+	text-align: center;
+	width: 100%;
+	background-color:   #262626;
+	font-size: 1.5vw;
+}
